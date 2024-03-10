@@ -1,0 +1,974 @@
+,ingredient,count,status
+9,salt,262,common
+5,onion,230,common
+58,sugar,168,common
+13,water,113,common
+94,chicken,108,common
+21,garlic cloves,100,common
+47,butter,90,common
+243,soy sauce,90,common
+2,garlic,87,common
+76,olive oil,86,common
+6,black pepper,81,common
+50,flour,73,common
+34,ginger,64,common
+31,vegetable oil,59,common
+95,pepper,56,common
+91,eggs,55,common
+15,tomatoes,54,common
+467,sesame oil,44,common
+12,parsley,39,common
+203,red pepper,39,common
+27,cilantro,39,common
+542,sesame seeds,38,common
+1,lemon juice,37,common
+49,milk,36,common
+10,beef,34,common
+46,oil,33,common
+38,pork,32,common
+68,cumin,31,common
+135,cornstarch,31,common
+440,lime juice,28,common
+33,garlic clove,28,common
+37,coriander,27,common
+79,potatoes,27,common
+190,virgin olive oil,26,common
+87,egg,26,common
+129,carrots,25,common
+451,rice vinegar,25,common
+41,chili powder,24,common
+436,fish sauce,24,common
+63,cinnamon,24,common
+194,shrimp,23,common
+109,garlic powder,23,common
+30,red bell pepper,23,common
+100,oregano,22,common
+69,paprika,22,common
+99,basil,22,common
+29,coconut milk,21,common
+39,gingerroot,21,common
+196,mushrooms,19,normal
+469,peanut oil,19,normal
+223,carrot,19,normal
+7,cayenne pepper,18,normal
+334,cheddar cheese,17,normal
+62,nutmeg,17,normal
+101,parmesan cheese,16,normal
+114,celery,16,normal
+110,mushroom,15,normal
+289,cabbage,15,normal
+102,thyme,15,normal
+279,sour cream,15,normal
+277,scallions,15,normal
+42,turmeric,15,normal
+312,heavy cream,15,normal
+280,white pepper,14,normal
+43,green chilies,13,normal
+375,bacon,13,normal
+61,honey,13,normal
+253,dry white wine,13,normal
+117,spinach,12,normal
+610,tortillas,12,normal
+90,yeast,12,normal
+293,dry sherry,12,normal
+192,mayonnaise,12,normal
+415,cream cheese,11,normal
+388,tomato sauce,11,normal
+539,rice wine,11,normal
+317,mozzarella cheese,11,normal
+60,cream,11,normal
+113,firm tofu,11,normal
+40,garam masala,10,normal
+396,zucchini,10,normal
+122,plum tomatoes,10,normal
+32,tomato paste,10,normal
+45,basmati rice,10,normal
+26,peas,10,normal
+111,rice,10,normal
+103,bay leaf,10,normal
+80,green bell pepper,10,normal
+608,dark sesame oil,9,normal
+669,monterey jack cheese,9,normal
+134,canola oil,9,normal
+544,mirin,9,normal
+665,black beans,9,normal
+149,cloves,9,normal
+228,breadcrumbs,9,normal
+0,plain yogurt,9,normal
+179,rosemary,9,normal
+35,curry powder,9,normal
+352,shallots,9,normal
+401,cooked rice,9,normal
+443,lemongrass,9,normal
+54,red chilies,8,normal
+264,balsamic vinegar,8,normal
+126,ricotta cheese,8,normal
+127,scallion,8,normal
+270,green pepper,8,normal
+20,cumin seed,8,normal
+72,red chili powder,8,normal
+322,vanilla extract,8,normal
+4,vinegar,8,normal
+664,salsa,8,normal
+802,vanilla,8,normal
+507,low sodium soy sauce,8,normal
+460,peanuts,8,normal
+537,avocado,8,normal
+77,coriander leaves,8,normal
+553,baking soda,7,normal
+224,tarragon,7,normal
+242,green peppers,7,normal
+220,red wine vinegar,7,normal
+598,corn,7,normal
+125,mint leaves,7,normal
+251,sausage,7,normal
+478,rice wine vinegar,7,normal
+442,maple syrup,7,normal
+434,red curry paste,7,normal
+233,leek,7,normal
+496,ketchup,7,normal
+108,cilantro leaves,7,normal
+533,sake,7,normal
+231,flat leaf parsley,7,normal
+28,chickpeas,6,normal
+198,chives,6,normal
+429,thai red curry paste,6,normal
+17,lettuce,6,normal
+422,shiitake mushrooms,6,normal
+629,celery ribs,6,normal
+97,cooking oil,6,normal
+234,ham,6,normal
+254,lemon,6,normal
+278,cucumber,6,normal
+78,vegetable broth,6,normal
+309,shallot,6,normal
+71,bay leaves,6,normal
+268,white wine,6,normal
+269,cayenne,6,normal
+823,baking powder,6,normal
+757,whipping cream,6,normal
+350,worcestershire sauce,6,normal
+193,capers,5,normal
+294,red chile,5,normal
+498,bean sprouts,5,normal
+178,red bell peppers,5,normal
+186,allspice,5,normal
+570,dark soy sauce,5,normal
+245,tabasco sauce,5,normal
+549,nori,5,normal
+433,thai basil,5,normal
+491,snow peas,5,normal
+239,black olives,5,normal
+336,basil leaves,5,normal
+263,green beans,5,normal
+308,egg yolk,5,normal
+195,sage,5,normal
+142,oats,5,normal
+115,vegetable stock,5,normal
+121,spinach leaves,5,normal
+697,pecans,5,normal
+666,jalapenos,5,normal
+48,saffron thread,5,normal
+119,broccoli,5,normal
+74,coriander powder,5,normal
+424,dijon mustard,4,normal
+548,wasabi powder,4,normal
+430,pumpkin,4,normal
+85,skim milk,4,normal
+266,artichoke heart,4,normal
+267,"lemon, juice of",4,normal
+397,yellow bell pepper,4,normal
+505,shiitake mushroom,4,normal
+207,dry red wine,4,normal
+335,spaghetti,4,normal
+209,orange juice,4,normal
+211,lemons,4,normal
+680,jalapeno peppers,4,normal
+213,brandy,4,normal
+360,cheese,4,normal
+466,cilantro leaf,4,normal
+868,oyster sauce,4,normal
+552,miso,4,normal
+191,thyme leaves,4,normal
+180,tomato puree,4,normal
+492,chow mein noodles,4,normal
+622,sriracha sauce,4,normal
+376,turkey,4,normal
+236,pine nuts,4,normal
+82,mustard seeds,4,normal
+73,turmeric powder,4,normal
+166,pasta sauce,4,normal
+257,chopped tomatoes,4,normal
+497,chili-garlic sauce,4,normal
+171,potato,4,normal
+483,chili paste,4,normal
+636,strawberries,4,normal
+344,cooking spray,4,normal
+259,raisins,4,normal
+406,iceberg lettuce,4,normal
+275,pitted black olives,3,normal
+557,mustard,3,normal
+273,yellow pepper,3,normal
+252,arborio rice,3,normal
+271,orange,3,normal
+457,thai fish sauce,3,normal
+272,eggplant,3,normal
+255,hot sauce,3,normal
+710,kernel corn,3,normal
+120,lentils,3,normal
+258,saffron,3,normal
+341,linguine,3,normal
+92,ghee,3,normal
+464,"limes, juice of",3,normal
+480,sticky rice,3,normal
+814,banana,3,normal
+810,raspberries,3,normal
+493,lime wedge,3,normal
+320,egg yolks,3,normal
+66,sunflower oil,3,normal
+816,shortening,3,normal
+306,white fish fillets,3,normal
+305,fish stock,3,normal
+304,fennel bulb,3,normal
+324,leeks,3,normal
+504,jalapeno pepper,3,normal
+326,grape tomatoes,3,normal
+339,italian seasoned breadcrumbs,3,normal
+479,kaffir lime leaf,3,normal
+516,jalapeno,3,normal
+477,teriyaki sauce,3,normal
+520,peppercorns,3,normal
+473,splenda granular,3,normal
+331,slivered almonds,3,normal
+765,apple,3,normal
+558,tofu,3,normal
+764,yellow cornmeal,3,normal
+753,swiss cheese,3,normal
+745,herbs,3,normal
+249,cucumbers,3,normal
+241,almonds,3,normal
+247,french bread,3,normal
+25,tamarind paste,3,normal
+595,avocados,3,normal
+437,kaffir lime leaves,3,normal
+609,flank steaks,3,normal
+561,tomato juice,3,normal
+435,japanese eggplants,3,normal
+615,sesame seed oil,3,normal
+204,sherry wine,3,normal
+677,tortilla chips,3,normal
+878,hoisin sauce,3,normal
+886,flank steak,3,normal
+200,hard-boiled egg,3,normal
+150,cardamom pods,3,normal
+674,green olives,3,normal
+667,queso fresco,3,normal
+157,hard-boiled eggs,3,normal
+377,egg white,3,normal
+628,egg whites,3,normal
+662,chopped tomato,3,normal
+658,bamboo shoot,3,normal
+635,walnuts,3,normal
+175,chili,3,normal
+403,cherry tomatoes,3,normal
+8,mace,3,normal
+441,molasses,3,normal
+318,cocoa powder,3,normal
+361,marjoram,3,normal
+132,blanched almond,3,normal
+349,chili sauce,3,normal
+490,baby spinach,3,normal
+44,mint,3,normal
+589,panko breadcrumbs,3,normal
+138,mangoes,3,normal
+353,red wine,3,normal
+446,udon noodles,3,normal
+355,blueberries,3,normal
+562,quinoa,3,normal
+356,sun-dried tomato,3,normal
+244,red chili pepper,3,normal
+227,cornmeal,3,normal
+452,chili paste with garlic,3,normal
+358,provolone cheese,3,normal
+143,madras curry powder,3,normal
+136,green peas,3,normal
+453,dry peanuts,2,uncommon
+413,goat cheese,2,uncommon
+405,rotini pasta,2,uncommon
+860,graham cracker crumbs,2,uncommon
+402,yellow squash,2,uncommon
+945,garlic granules,2,uncommon
+421,button mushrooms,2,uncommon
+398,thyme leave,2,uncommon
+941,rotel tomatoes,2,uncommon
+957,cream of mushroom soup,2,uncommon
+888,szechuan peppercorns,2,uncommon
+448,reduced sodium soy sauce,2,uncommon
+904,kidney beans,2,uncommon
+821,pineapple,2,uncommon
+431,asparagus,2,uncommon
+856,horseradish,2,uncommon
+471,soya sauce,2,uncommon
+833,italian dressing,2,uncommon
+445,green curry paste,2,uncommon
+843,applesauce,2,uncommon
+463,mint leaf,2,uncommon
+844,tomato soup,2,uncommon
+853,seasoned bread crumbs,2,uncommon
+863,bananas,2,uncommon
+438,"lime, juice of",2,uncommon
+871,red chili peppers,2,uncommon
+652,cinnamon sticks,2,uncommon
+494,chile,2,uncommon
+597,cooked brown rice,2,uncommon
+617,ginger juice,2,uncommon
+616,romaine lettuce,2,uncommon
+614,sirloin tip steaks,2,uncommon
+679,roma tomatoes,2,uncommon
+606,long-grain rice,2,uncommon
+682,olive,2,uncommon
+594,aubergines,2,uncommon
+621,chili pepper,2,uncommon
+591,steamed rice,2,uncommon
+683,enchilada sauce,2,uncommon
+584,vegetables,2,uncommon
+578,pickled ginger,2,uncommon
+574,wasabi,2,uncommon
+684,corn kernels,2,uncommon
+620,short ribs,2,uncommon
+676,poblano chiles,2,uncommon
+495,rice noodles,2,uncommon
+633,egg roll wraps,2,uncommon
+644,fish cake,2,uncommon
+643,kim chee,2,uncommon
+640,bean thread noodles,2,uncommon
+639,baby bok choy,2,uncommon
+638,dashida,2,uncommon
+637,chinese egg noodles,2,uncommon
+655,hot green chili peppers,2,uncommon
+675,fruit,2,uncommon
+632,firm silken tofu,2,uncommon
+631,thyme sprigs,2,uncommon
+630,parsley sprigs,2,uncommon
+627,accent seasoning,2,uncommon
+626,white vinegar,2,uncommon
+668,corn oil,2,uncommon
+573,brown rice,2,uncommon
+686,margarine,2,uncommon
+689,monterey jack pepper cheese,2,uncommon
+785,oysters,2,uncommon
+540,soba noodles,2,uncommon
+538,kombu seaweed,2,uncommon
+536,english cucumber,2,uncommon
+534,salmon fillets,2,uncommon
+782,white chocolate,2,uncommon
+532,chili oil,2,uncommon
+519,lime peel,2,uncommon
+569,egg noodles,2,uncommon
+515,lime zest,2,uncommon
+797,creole seasoning,2,uncommon
+506,lettuce leaf,2,uncommon
+500,jasmine rice,2,uncommon
+804,serrano peppers,2,uncommon
+809,cider vinegar,2,uncommon
+759,burgundy wine,2,uncommon
+543,sushi rice,2,uncommon
+730,tomatoes with mild green chilies,2,uncommon
+650,kikkoman soy sauce,2,uncommon
+716,stewed tomatoes,2,uncommon
+545,kelp,2,uncommon
+704,refried beans,2,uncommon
+547,seasoned rice vinegar,2,uncommon
+703,taco seasoning,2,uncommon
+702,taco sauce,2,uncommon
+701,taco shells,2,uncommon
+694,white rice,2,uncommon
+692,tomato,2,uncommon
+564,english cucumbers,2,uncommon
+567,scallops,2,uncommon
+568,lime,2,uncommon
+690,southwest seasoning,2,uncommon
+722,taco seasoning mix,2,uncommon
+486,chilies,2,uncommon
+154,long grain rice,2,uncommon
+156,blanched almonds,2,uncommon
+214,triple sec,2,uncommon
+36,cardamom,2,uncommon
+83,curry leaves,2,uncommon
+162,fenugreek leaves,2,uncommon
+216,lemonade concentrate,2,uncommon
+52,cumin seeds,2,uncommon
+159,asafoetida powder,2,uncommon
+291,fish fillets,2,uncommon
+357,fire-roasted tomatoes,2,uncommon
+370,oregano leaves,2,uncommon
+288,kale,2,uncommon
+362,italian parsley,2,uncommon
+363,lemon pepper,2,uncommon
+364,sage leaves,2,uncommon
+365,prosciutto,2,uncommon
+287,courgettes,2,uncommon
+286,club soda,2,uncommon
+218,ice cubes,2,uncommon
+295,mussels,2,uncommon
+340,sea scallops,2,uncommon
+338,parmigiano-reggiano cheese,2,uncommon
+212,oranges,2,uncommon
+311,fettuccine,2,uncommon
+313,lemon zest,2,uncommon
+184,lean lamb,2,uncommon
+182,double cream,2,uncommon
+319,bittersweet chocolate,2,uncommon
+197,madeira wine,2,uncommon
+176,curry paste,2,uncommon
+199,apple cider vinegar,2,uncommon
+201,salad greens,2,uncommon
+325,half-and-half,2,uncommon
+206,manchego cheese,2,uncommon
+329,fat-free sweetened condensed milk,2,uncommon
+167,minced ginger,2,uncommon
+330,fat-free half-and-half,2,uncommon
+332,semi-sweet chocolate chips,2,uncommon
+333,polenta,2,uncommon
+210,limes,2,uncommon
+369,red kidney beans,2,uncommon
+307,prawns,2,uncommon
+75,garam masala powder,2,uncommon
+260,orange zest,2,uncommon
+248,olive oil flavored cooking spray,2,uncommon
+130,nonfat dry milk powder,2,uncommon
+246,bread,2,uncommon
+151,poppy seed,2,uncommon
+240,sunflower seeds,2,uncommon
+381,spaghetti sauce,2,uncommon
+133,cashews,2,uncommon
+386,eggplants,2,uncommon
+380,farfalle pasta,2,uncommon
+65,minced garlic cloves,2,uncommon
+137,gelatin,2,uncommon
+123,tamari,2,uncommon
+64,nuts,2,uncommon
+59,ice,2,uncommon
+274,cayenne powder,2,uncommon
+265,white wine vinegar,2,uncommon
+219,fennel seed,2,uncommon
+235,of mint,2,uncommon
+276,lettuce leaves,2,uncommon
+67,half-and-half cream,2,uncommon
+382,romano cheese,2,uncommon
+262,garbanzo beans,2,uncommon
+261,olives,2,uncommon
+825,bottom round steak,1,uncommon
+793,wheat gluten,1,uncommon
+794,brown button mushrooms,1,uncommon
+786,vol-au-vent cases,1,uncommon
+822,biscuits,1,uncommon
+789,goat's cheese,1,uncommon
+828,vanilla yogurt,1,uncommon
+827,apricot preserves,1,uncommon
+824,blackberry,1,uncommon
+826,wide egg noodles,1,uncommon
+792,cherry jam,1,uncommon
+787,fruit preserves,1,uncommon
+791,french baguette,1,uncommon
+790,"lemon, zest of",1,uncommon
+788,puff pastry,1,uncommon
+818,andes mint baking chips,1,uncommon
+795,bulgur,1,uncommon
+805,ancho chile powder,1,uncommon
+70,green chili pepper,1,uncommon
+811,sour pitted cherries,1,uncommon
+808,heinz chili sauce,1,uncommon
+812,cajun seasoning,1,uncommon
+813,wheat bread,1,uncommon
+86,yogurt,1,uncommon
+807,bing cherries,1,uncommon
+815,dates,1,uncommon
+806,pickled jalapeno pepper,1,uncommon
+81,red gram,1,uncommon
+796,crescent dinner rolls,1,uncommon
+803,cereal,1,uncommon
+801,hamburger bun,1,uncommon
+800,hamburger patty,1,uncommon
+799,yellow mustard,1,uncommon
+817,chocolate cookie crumb,1,uncommon
+798,dry bread,1,uncommon
+819,creme de menthe thin candies,1,uncommon
+820,"lemons, juice and zest of",1,uncommon
+84,achar,1,uncommon
+391,marinated artichoke hearts,1,uncommon
+774,brut champagne,1,uncommon
+784,casing,1,uncommon
+783,mint extract,1,uncommon
+732,quaker quick barley,1,uncommon
+733,martha white yellow cornbread mix,1,uncommon
+734,minced garlic clove,1,uncommon
+735,poblano pepper,1,uncommon
+736,pico de gallo,1,uncommon
+737,mole,1,uncommon
+738,cilantro stem,1,uncommon
+739,white hominy,1,uncommon
+740,white peppercorns,1,uncommon
+741,lamb shanks,1,uncommon
+742,cannellini beans,1,uncommon
+743,rosemary sprig,1,uncommon
+744,calvados,1,uncommon
+105,chocolate cake,1,uncommon
+746,arrowroot,1,uncommon
+731,mexican blend cheese,1,uncommon
+106,marie biscuits,1,uncommon
+729,chocolate,1,uncommon
+720,tequila,1,uncommon
+714,vegetable oil cooking spray,1,uncommon
+715,baking chocolate squares,1,uncommon
+112,peppercorn,1,uncommon
+717,chipotle chile in adobo,1,uncommon
+718,jicama,1,uncommon
+719,baby greens,1,uncommon
+721,kiwi,1,uncommon
+728,malt vinegar,1,uncommon
+107,milk chocolate candy bar,1,uncommon
+723,rotel tomatoes & chilies,1,uncommon
+724,fat-free refried beans,1,uncommon
+725,reduced-fat cheddar cheese,1,uncommon
+726,nonfat sour cream,1,uncommon
+727,turkey breast,1,uncommon
+747,chard leaves,1,uncommon
+748,gruyere,1,uncommon
+749,rosemary leaves,1,uncommon
+775,st. germain elderflower liqueur,1,uncommon
+769,brie cheese,1,uncommon
+770,alfalfa sprout,1,uncommon
+771,bourbon,1,uncommon
+772,macadamia nuts,1,uncommon
+773,partridges,1,uncommon
+830,rigatoni pasta,1,uncommon
+776,veal shoulder,1,uncommon
+767,wakame seaweed,1,uncommon
+777,truffles,1,uncommon
+778,clementines,1,uncommon
+779,navy beans,1,uncommon
+780,dry green lentils,1,uncommon
+781,herb,1,uncommon
+88,desiccated coconut,1,uncommon
+768,cornichons,1,uncommon
+766,dulse seaweed,1,uncommon
+750,rib-eye steaks,1,uncommon
+98,sun-dried tomatoes packed in oil,1,uncommon
+751,savory,1,uncommon
+752,lavender,1,uncommon
+104,vanilla custard powder,1,uncommon
+754,brown stock,1,uncommon
+755,stock,1,uncommon
+756,port wine,1,uncommon
+758,turnip,1,uncommon
+89,sultanas,1,uncommon
+96,ginger-garlic paste,1,uncommon
+760,celery rib,1,uncommon
+761,parsley leaves,1,uncommon
+762,chambord raspberry liquor,1,uncommon
+763,white creme de cacao,1,uncommon
+93,hot red chili peppers,1,uncommon
+829,granola,1,uncommon
+845,white corn,1,uncommon
+831,turkey ham,1,uncommon
+929,english muffins,1,uncommon
+923,mcintosh apples,1,uncommon
+924,liquid honey,1,uncommon
+925,baby peas,1,uncommon
+926,green tea powder,1,uncommon
+927,green tea,1,uncommon
+928,red bean paste,1,uncommon
+930,fat free cream cheese,1,uncommon
+921,apricot,1,uncommon
+931,plain nonfat yogurt,1,uncommon
+932,squid,1,uncommon
+933,vanilla ice cream,1,uncommon
+934,coffee,1,uncommon
+935,tia maria,1,uncommon
+936,spices,1,uncommon
+922,almond,1,uncommon
+920,apple ring,1,uncommon
+832,dill pickles,1,uncommon
+911,sole fillet,1,uncommon
+905,french style green beans,1,uncommon
+906,asparagus spears,1,uncommon
+907,2% milk,1,uncommon
+908,chervil,1,uncommon
+909,green cardamom pods,1,uncommon
+910,10-inch pie shell,1,uncommon
+912,pimento stuffed olive,1,uncommon
+919,fig,1,uncommon
+913,sage leaf,1,uncommon
+914,kahlua,1,uncommon
+915,amaretto,1,uncommon
+916,wheat flakes,1,uncommon
+917,flax seeds,1,uncommon
+918,apple juice concentrate,1,uncommon
+937,powdered turmeric,1,uncommon
+938,old bay seasoning,1,uncommon
+939,flounder fillets,1,uncommon
+964,green capsicum,1,uncommon
+958,penne rigate,1,uncommon
+959,sweetened coconut,1,uncommon
+960,sweetened condensed milk,1,uncommon
+961,lean hamburger,1,uncommon
+962,celery seed,1,uncommon
+963,red capsicum,1,uncommon
+965,yellow capsicum,1,uncommon
+940,kraft macaroni and cheese,1,uncommon
+966,white shoepeg corn,1,uncommon
+967,cream soda,1,uncommon
+968,ranch dressing mix,1,uncommon
+969,cool whip,1,uncommon
+970,clove,1,uncommon
+971,heavy whipping cream,1,uncommon
+3,hot pepper sauce,1,uncommon
+956,chunk tuna,1,uncommon
+955,spring greens,1,uncommon
+954,rice krispies,1,uncommon
+953,poultry seasoning,1,uncommon
+952,biscuit mix,1,uncommon
+951,raw cauliflower,1,uncommon
+950,cranberries,1,uncommon
+949,preserved lemon,1,uncommon
+948,saffron threads,1,uncommon
+947,monterey jack and cheddar cheese blend,1,uncommon
+946,feta cheese,1,uncommon
+11,tahini,1,uncommon
+944,feta,1,uncommon
+943,white beans,1,uncommon
+942,full-fat milk,1,uncommon
+14,pita bread,1,uncommon
+16,sprouts,1,uncommon
+903,israeli couscous,1,uncommon
+902,bok choy,1,uncommon
+857,vodka,1,uncommon
+850,baked corn tortilla chips,1,uncommon
+851,jalapeno chiles,1,uncommon
+852,lump crabmeat,1,uncommon
+53,fennel seeds,1,uncommon
+854,venison loin steaks,1,uncommon
+855,dijon-style mustard,1,uncommon
+858,grapefruit juice,1,uncommon
+867,sirloin steak,1,uncommon
+859,midori melon liqueur,1,uncommon
+51,coriander seed,1,uncommon
+861,pumpkin puree,1,uncommon
+862,milk chocolate chips,1,uncommon
+864,instant vanilla pudding,1,uncommon
+865,vermicelli,1,uncommon
+849,chili seasoning mix,1,uncommon
+848,white sauce,1,uncommon
+847,barbecue sauce,1,uncommon
+846,beer,1,uncommon
+712,cubanelle peppers,1,uncommon
+55,mango powder,1,uncommon
+56,carom seeds,1,uncommon
+842,tomato jam,1,uncommon
+841,lemon wedge,1,uncommon
+840,chipotle chile,1,uncommon
+839,chile powder,1,uncommon
+838,processed swiss cheese,1,uncommon
+837,vienna bread,1,uncommon
+836,self-rising cornmeal,1,uncommon
+835,lemon supreme cake mix,1,uncommon
+834,american cheese,1,uncommon
+57,instant coffee powder,1,uncommon
+866,sherry wine vinegar,1,uncommon
+24,mild curry powder,1,uncommon
+901,crab,1,uncommon
+893,bourbon whiskey,1,uncommon
+887,star anise,1,uncommon
+18,tzatziki,1,uncommon
+889,wonton skins,1,uncommon
+890,wonton wrappers,1,uncommon
+891,walnut halves,1,uncommon
+892,apple juice,1,uncommon
+894,broccoli floret,1,uncommon
+869,cooked broccoli,1,uncommon
+895,sweet and sour sauce,1,uncommon
+896,garlic and red chile paste,1,uncommon
+897,chinese hot mustard,1,uncommon
+898,tamari soy sauce,1,uncommon
+899,garlic oil,1,uncommon
+900,hamburger,1,uncommon
+19,mustard oil,1,uncommon
+885,red food coloring,1,uncommon
+884,yellow miso,1,uncommon
+883,chinese five spice powder,1,uncommon
+882,green pea,1,uncommon
+881,baby bella mushrooms,1,uncommon
+880,red miso,1,uncommon
+879,chinese rice wine,1,uncommon
+22,yams,1,uncommon
+877,cooked vermicelli,1,uncommon
+876,sirloin,1,uncommon
+875,five-spice powder,1,uncommon
+874,pineapple juice,1,uncommon
+873,pineapple chunks,1,uncommon
+872,hot chili peppers,1,uncommon
+23,tomatoes with juice,1,uncommon
+870,garlic sauce,1,uncommon
+713,haddock fillet,1,uncommon
+145,methi seeds,1,uncommon
+711,habanero peppers,1,uncommon
+510,caraway seed,1,uncommon
+508,black sticky rice,1,uncommon
+298,peach slices,1,uncommon
+299,green seedless grape,1,uncommon
+300,red seedless grapes,1,uncommon
+301,lima beans,1,uncommon
+503,summer squash,1,uncommon
+502,beets,1,uncommon
+501,sweet basil,1,uncommon
+302,stuffed green olive,1,uncommon
+499,thai sweet chili sauce,1,uncommon
+303,fine breadcrumbs,1,uncommon
+310,spanish olives,1,uncommon
+314,pecorino cheese,1,uncommon
+315,parmesan breadsticks,1,uncommon
+316,chopped spinach,1,uncommon
+489,yoghurt,1,uncommon
+488,papaya,1,uncommon
+487,long beans,1,uncommon
+321,coffee liqueur,1,uncommon
+485,hot green chili pepper,1,uncommon
+484,white mushrooms,1,uncommon
+323,candies,1,uncommon
+482,chili peppers,1,uncommon
+481,nam pla,1,uncommon
+327,boboli pizza crust,1,uncommon
+328,salad dressing,1,uncommon
+476,peanut sauce,1,uncommon
+475,instant brown rice,1,uncommon
+474,tea,1,uncommon
+509,sweetened flaked coconut,1,uncommon
+511,laos powder,1,uncommon
+116,red lentils,1,uncommon
+512,rhizome,1,uncommon
+551,tilapia fillets,1,uncommon
+550,radish sprouts,1,uncommon
+546,short-grain brown rice,1,uncommon
+281,veal,1,uncommon
+282,rum,1,uncommon
+541,plum sauce,1,uncommon
+283,grand marnier,1,uncommon
+284,rioja wine,1,uncommon
+285,pomegranate juice,1,uncommon
+535,imitation crabmeat,1,uncommon
+290,dark red kidney beans,1,uncommon
+531,english mustard,1,uncommon
+530,plum,1,uncommon
+529,plum wine,1,uncommon
+528,simple syrup,1,uncommon
+527,orange slices,1,uncommon
+526,red thai chile,1,uncommon
+525,crabmeat,1,uncommon
+524,green peppercorns,1,uncommon
+523,red chili pepper flakes,1,uncommon
+522,vegetable stock cubes,1,uncommon
+521,coconut cream,1,uncommon
+292,baking potato,1,uncommon
+518,coriander root,1,uncommon
+517,basil leaf,1,uncommon
+296,long crusty bread,1,uncommon
+297,peach brandy,1,uncommon
+514,serrano chilies,1,uncommon
+513,lime rind,1,uncommon
+472,hot pepper,1,uncommon
+470,sirloin steaks,1,uncommon
+468,bamboo skewers,1,uncommon
+337,meatloaf mix,1,uncommon
+425,baby clams,1,uncommon
+374,2% mozzarella cheese,1,uncommon
+423,oyster mushrooms,1,uncommon
+378,orzo pasta,1,uncommon
+379,escarole,1,uncommon
+420,figs,1,uncommon
+419,parma ham,1,uncommon
+418,baking mix,1,uncommon
+417,milk ricotta cheese,1,uncommon
+416,winter squash,1,uncommon
+414,spaghetti noodles,1,uncommon
+412,basil pesto,1,uncommon
+411,ravioli,1,uncommon
+410,aluminum foil,1,uncommon
+409,parsley flakes,1,uncommon
+408,hard salami,1,uncommon
+407,cooked ham,1,uncommon
+383,bread dough,1,uncommon
+404,dry basil,1,uncommon
+384,mustard powder,1,uncommon
+385,pepperoni,1,uncommon
+400,asiago cheese,1,uncommon
+399,angel hair pasta,1,uncommon
+387,pizza dough,1,uncommon
+389,part-skim mozzarella cheese,1,uncommon
+390,portabella mushroom,1,uncommon
+395,italian tomatoes,1,uncommon
+394,vermouth,1,uncommon
+393,sauvignon blanc wine,1,uncommon
+426,chardonnay wine,1,uncommon
+427,artichoke hearts,1,uncommon
+428,italian seasoning,1,uncommon
+348,chuck steaks,1,uncommon
+465,thai rice,1,uncommon
+342,risotto rice,1,uncommon
+462,birds eye chile,1,uncommon
+461,coconut,1,uncommon
+343,dill,1,uncommon
+459,halibut fillet,1,uncommon
+458,birds eye chiles,1,uncommon
+345,pizza sauce,1,uncommon
+456,baby corn,1,uncommon
+455,stew meat,1,uncommon
+454,straw mushrooms,1,uncommon
+346,five cheese blend,1,uncommon
+347,italian herb seasoning,1,uncommon
+450,bean sprout,1,uncommon
+373,wheat spaghetti,1,uncommon
+449,reduced-fat firm tofu,1,uncommon
+351,stuffed olives,1,uncommon
+447,reduced-sodium vegetable broth,1,uncommon
+354,filberts,1,uncommon
+444,thai chile,1,uncommon
+359,kalamata olive,1,uncommon
+439,yellow curry paste,1,uncommon
+366,marsala,1,uncommon
+367,reduced-sodium tomato juice,1,uncommon
+368,cannellini,1,uncommon
+432,pattypan squash,1,uncommon
+371,elbow macaroni,1,uncommon
+372,reduced-fat mozzarella cheese,1,uncommon
+256,white bread,1,uncommon
+554,portabella mushrooms,1,uncommon
+555,white sesame seeds,1,uncommon
+173,bengal gram dal,1,uncommon
+672,pomegranate,1,uncommon
+671,hot chili sauce,1,uncommon
+670,mild salsa,1,uncommon
+155,golden raisins,1,uncommon
+158,kabuli channa,1,uncommon
+160,tamarind extract,1,uncommon
+663,vegetarian refried beans,1,uncommon
+161,panir,1,uncommon
+661,red hot peppers,1,uncommon
+660,juice,1,uncommon
+659,sour kimchee,1,uncommon
+657,pear,1,uncommon
+656,top sirloin steak,1,uncommon
+163,green chili,1,uncommon
+654,oyster,1,uncommon
+653,clam,1,uncommon
+164,cheesecloth,1,uncommon
+651,coca-cola,1,uncommon
+165,dry mustard,1,uncommon
+649,flat iron steaks,1,uncommon
+648,powdered milk,1,uncommon
+647,potato flakes,1,uncommon
+646,asian pears,1,uncommon
+645,round steaks,1,uncommon
+168,cumin powder,1,uncommon
+642,safflower oil,1,uncommon
+641,reduced-sodium tamari soy sauce,1,uncommon
+169,lamb,1,uncommon
+170,bell peppers,1,uncommon
+673,blanched slivered almonds,1,uncommon
+153,saffron strands,1,uncommon
+152,black cardamom pods,1,uncommon
+131,cardamom seed,1,uncommon
+709,fat free sour cream,1,uncommon
+708,philadelphia cream cheese,1,uncommon
+707,green chili peppers,1,uncommon
+706,tomatillos,1,uncommon
+705,green tomatoes,1,uncommon
+118,cauliflower,1,uncommon
+124,green apple,1,uncommon
+128,golden raisin,1,uncommon
+700,tomatoes in puree,1,uncommon
+699,pie crusts,1,uncommon
+698,ancho chili pepper,1,uncommon
+696,cheese spread,1,uncommon
+695,picante sauce,1,uncommon
+693,queso anejo,1,uncommon
+148,curry leaf,1,uncommon
+691,poblano peppers,1,uncommon
+139,lemon rind,1,uncommon
+688,culantro,1,uncommon
+687,ajies dulces,1,uncommon
+140,passion fruit,1,uncommon
+685,epazote,1,uncommon
+141,pink salmon,1,uncommon
+144,toor dal,1,uncommon
+392,fontina cheese,1,uncommon
+681,beans,1,uncommon
+146,hing,1,uncommon
+147,black mustard seeds,1,uncommon
+678,guacamole,1,uncommon
+172,black gram dal,1,uncommon
+174,red chili,1,uncommon
+556,bonito flakes,1,uncommon
+634,medium grain rice,1,uncommon
+221,ascorbic acid,1,uncommon
+588,kumquats,1,uncommon
+587,eel,1,uncommon
+586,smelt,1,uncommon
+585,fish,1,uncommon
+222,hog casings,1,uncommon
+583,shoyu,1,uncommon
+582,ajinomoto,1,uncommon
+581,konjac,1,uncommon
+580,bamboo shoots,1,uncommon
+579,burdock root,1,uncommon
+225,brown lentils,1,uncommon
+577,catsup,1,uncommon
+576,bell pepper,1,uncommon
+575,dill pickle,1,uncommon
+226,calamari,1,uncommon
+229,spanish ham,1,uncommon
+572,pak choi,1,uncommon
+571,broccoli florets,1,uncommon
+230,day-old french bread,1,uncommon
+232,peaches,1,uncommon
+237,raspberry vinegar,1,uncommon
+566,wasabi paste,1,uncommon
+565,tuna steak,1,uncommon
+238,sultana raisins,1,uncommon
+563,alfalfa sprouts,1,uncommon
+560,soup stock,1,uncommon
+559,hot green peppers,1,uncommon
+250,v8 vegetable juice,1,uncommon
+590,dashi stock,1,uncommon
+592,kombu,1,uncommon
+593,"lemons, juice of",1,uncommon
+205,crusty bread,1,uncommon
+177,evaporated milk,1,uncommon
+181,corn kernel,1,uncommon
+183,toast,1,uncommon
+185,hot pepper flakes,1,uncommon
+187,tagliatelle pasta noodles,1,uncommon
+188,amchur powder,1,uncommon
+625,sambal oelek,1,uncommon
+624,corn syrup,1,uncommon
+623,bean thread vermicelli,1,uncommon
+189,green coriander,1,uncommon
+619,budweiser beer,1,uncommon
+618,sirloin tip roast,1,uncommon
+202,heads of garlic,1,uncommon
+613,wine,1,uncommon
+217,limeade concentrate,1,uncommon
+612,sesame powder,1,uncommon
+611,chinese noodles,1,uncommon
+208,7-up,1,uncommon
+607,processed cheese,1,uncommon
+605,hellmann's mayonnaise,1,uncommon
+604,edamame,1,uncommon
+603,hard-cooked eggs,1,uncommon
+602,radishes,1,uncommon
+601,greens,1,uncommon
+600,rice sticks,1,uncommon
+599,salad oil,1,uncommon
+215,grenadine,1,uncommon
+596,cola,1,uncommon
+972,currant,1,uncommon
