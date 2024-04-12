@@ -20,6 +20,13 @@
         padding: 0;
         overflow: hidden;
       }
+      #second-sigma-container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
       #textbox {
         position: absolute;
         right: 1em;
@@ -69,7 +76,78 @@
         right: 1em;
         top: 1em;
       }
+      .korean {
+        color: blue;
+      }
+      .chinese {
+        color: red;
+      }
+      .japanese {
+        color: yellow;
+      }
+      .thai {
+        color: #00ff00;
+      }
+      .indian {
+        color: #ff3200;
+      }
+      .spanish {
+        color: #0033ff;
+      } /* Lime green */
+      .italian {
+        color: #6600ff;
+      }
+      .mexican {
+        color: #ff1491;
+      }
+      .american {
+        color: grey;
+      }
+      .french {
+        color: #66ff66;
+      } /* Dark blue */
+      .others {
+        color: #663300;
+      } /* Dark brown */
+      .node {
+        position: absolute;
+
+        bottom: 20px;
+        right: 20px;
+        width: 70px;
+        height: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      .checkbox-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px; /* Add margin between checkbox groups */
+      }
+      .checkbox-label {
+        margin-left: 5px; /* Add some space between checkbox and label */
+      }
+      .checkbox-container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        /* Align checkboxes to the right */
+      }
+      .checkbox-item {
+        display: flex;
+        align-items: center;
+      }
+      .checkbox-label1 {
+        margin-left: 5px; /* Add some space between checkbox and label */
+      }
+      .cuisine-container {
+        align-self: flex-end; /* Move the container to the right end */
+      }
     </style>
+    <div id="root"></div>
+    <div id="second-sigma-container"></div>
     <div id="sigma-container"></div>
     <div id="search">
       <input
@@ -82,13 +160,13 @@
     </div>
     <div id="textbox">
       <input
-        type="search"
-        id="search-input"
-        list="ingredients"
-        placeholder="Try searching for a ingredient..."
+        type="text"
+        id="searchInput"
+        placeholder="Search for ingredients"
       />
-      <datalist id="ingredients"></datalist>
+      <button id="findButton">Find</button>
     </div>
+
     <div id="controls">
       <div class="input">
         <label for="zoom-in">Zoom in</label><button id="zoom-in">+</button>
@@ -100,6 +178,7 @@
         <label for="zoom-reset">Reset zoom</label
         ><button id="zoom-reset">⊙</button>
       </div>
+
       <div class="input">
         <label for="test">layout1</label><button id="layout1">reset</button>
       </div>
@@ -125,8 +204,54 @@
         <input type="checkbox" id="uncommon" />
         <label for="checkbox2" class="checkbox-label">Uncommon</label>
       </div>
+      <div class="checkbox-container1 cuisine-container">
+        <div class="checkbox-item">
+          <input type="checkbox" id="korean" />
+          <label for="korean" class="checkbox-label1 korean">Korean</label>
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="chinese" />
+          <label for="chinese" class="checkbox-label1 chinese">Chinese</label>
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="japanese" />
+          <label for="japanese" class="checkbox-label1 japanese"
+            >Japanese</label
+          >
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="thai" />
+          <label for="thai" class="checkbox-label1 thai">Thai</label>
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="indian" />
+          <label for="indian" class="checkbox-label1 indian">Indian</label>
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="spanish" />
+          <label for="spanish" class="checkbox-label1 spanish">Spanish</label>
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="italian" />
+          <label for="italian" class="checkbox-label1 italian">Italian</label>
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="mexican" />
+          <label for="mexican" class="checkbox-label1 mexican">Mexican</label>
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="american" />
+          <label for="american" class="checkbox-label1 american"
+            >American</label
+          >
+        </div>
+        <div class="checkbox-item">
+          <input type="checkbox" id="french" />
+          <label for="french" class="checkbox-label1 french">French</label>
+        </div>
+      </div>
     </div>
 
-    <script src="build/bundle.js"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
