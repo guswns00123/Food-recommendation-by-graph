@@ -17,18 +17,20 @@
 
 3. 만들어진 Graph를 Web application에 적용하여 유저들이 이용가능한 다양한 기능 구현
 
-   
+### Built With
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+
 ## Main Features
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e4989edc-03bd-405c-aab6-8515cab220df/51ea46e9-4140-402d-af15-0a4dc93c2c12/Untitled.png)
+![image](/Overall_structure.png)
 
 ## Overall UI
-![**그래프 웹 어플리케이션의 전체적인 UI 구조**](https://prod-files-secure.s3.us-west-2.amazonaws.com/e4989edc-03bd-405c-aab6-8515cab220df/44b2dd2f-94e1-49dc-819d-7317944f8c2d/Untitled.png)
+![image](/Overall_UI.png)
 
 ## Recipe nodes matching onion and water 
-![**유저가 양파, 물을 검색 했을 때 매칭되는 그래프를 제공해주는 화면**](https://prod-files-secure.s3.us-west-2.amazonaws.com/e4989edc-03bd-405c-aab6-8515cab220df/cbb51f9a-8a38-477c-8aef-8ddbeb97e743/Untitled.png)
+![image](/Matching_graph.png)
 
 ## UI of thai chicken crock pot recipe information 
-![**Chicken crock pot 레시피를 클릭했을 때 제공해주는 UI**](https://prod-files-secure.s3.us-west-2.amazonaws.com/e4989edc-03bd-405c-aab6-8515cab220df/fd38e98d-3901-46e3-a40d-35b10006e493/Untitled.png)
+![image](/Recipe_information_UI.png)
 
 
-### Built With
