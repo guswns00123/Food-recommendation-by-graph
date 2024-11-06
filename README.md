@@ -11,8 +11,45 @@
 
 프로젝트의 가장 큰 목표
 
-1. 음식 관련 데이터 추출 및 정제 과정
+1. 음식 데이터 파이프 라인 구현 방법
+   ```bash
+   # Windows 리눅스 설치
+   wsl --install Ubuntu-22.04
+   
+   #poetry 설치
+   curl -sSL https://install.python-poetry.org | python3 -
+    
+   # ~/.bashrc 파일 열기
+   vi ~/.bashrc 
 
+   # ~/.bashrc 맨 하단에 아래 줄 추가
+   PATH="$HOME/.local/bin:$PATH"
+
+   # .bashrc 적용
+   source ~/.bashrc
+
+   # 설치 확인
+   poetry --version
+   
+   #pyproject.toml 파일 생성
+   poetry init
+    
+   # 필요한 라이브러리 추가
+   poetry add selenium
+   poetry add mysql-connector-python
+   poetry add chromedriver-autoinstaller
+   poetry add requests
+   poetry add pandas
+   poetry add scrapy
+
+   # Docker 실행
+   sudo docker compose up   
+   ```
+
+docker 실행 시 crawl 컨테이너를 통해 구현된 scrapy 함수 실행
+
+   
+   
 2. 정제된 데이터를 이용한 Food Information Graph 구현
 
 3. 만들어진 Graph를 Web application에 적용하여 유저들이 이용가능한 다양한 기능 구현
