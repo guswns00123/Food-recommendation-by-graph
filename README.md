@@ -19,6 +19,7 @@
   ![image](/Overall_structure.png)
 
 Docker를 이용하여 컨테이너를 생성해 데이터 수집 시도
+
 빠른 데이터 수집을 위해 scrapy에 있는 CONCURRENT_REQUESTS (병렬처리) 기법을 이용
 
    ```bash
