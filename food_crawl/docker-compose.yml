@@ -4,11 +4,6 @@ services:
   crawler:
     build:
       context: .
-    environment:
-      DATABASE_HOST: db2
-      DATABASE_USER: user
-      DATABASE_PASSWORD: password
-      DATABASE_NAME: lutton_db
     restart: on-failure
     volumes:
       - .:/app
