@@ -1,76 +1,138 @@
- <h3 align="center">Food Recommendation by graph</h3>
+# Food Recommendation by Graph
 
-  <!-- ABOUT THE PROJECT -->
-## About The Project
-이번 프로젝트의 목표는 음식 데이터를 활용하여 graph를 만들고 graph를 통하여 유저들에게 음식을 추천해주는 시스템을 구축하는 것이다.
+레시피 데이터를 그래프 구조로 변환하여 재료 기반 음식 추천을 제공하는 웹 애플리케이션입니다.  
+홍콩중문대(CUHK) 졸업 프로젝트 (2인 팀, 2023.09 ~ 2024.04)
 
-그래서 우리는 데이터를 조사하여 직접 어떠한 데이터로 만들지 구상해야 했고 해당 데이터로 어떤 그래프를 만들지 결정하였다.
+## Demo
 
-또한 만들어진 그래프를 이용하여 유저들에게 웹 어플리케이션을 통하여 제공할 수 있게 다양한 기능 또한 구현하였다.
+> 그래프 시각화 웹 앱에서 재료를 검색하면 유사 레시피 Top 5를 추천합니다.
 
-### Built With
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+![Graph Visualization](./public/demo-screenshot.png)
 
-프로젝트의 가장 큰 목표
+## Architecture
 
-1. 음식 데이터 파이프 라인 구현
-  ## Main Features
-  ![image](/Overall_structure.png)
+```
+food.com
+  │
+  └─ crawlers/ (Scrapy + Selenium)
+       │  레시피명, 재료, 영양정보 수집
+       ▼
+  foods.json (원본 데이터)
+       │
+       └─ Transform (Python)
+            │  수식어 제거, 재료명 정규화
+            │  3,240 → 2,670개 통합 (17.6% 중복 제거)
+            ▼
+       NetworkX Graph → Gephi → final.gexf
+                                     │
+                                     ▼
+                          React + Sigma.js (웹 앱)
+```
 
-Docker를 이용하여 컨테이너를 생성해 데이터 수집 시도
+## Tech Stack
 
-빠른 데이터 수집을 위해 scrapy에 있는 CONCURRENT_REQUESTS (병렬처리) 기법을 이용
+| 역할 | 기술 |
+|------|------|
+| 데이터 수집 | Scrapy 2.11, Selenium 4.26 |
+| 데이터 처리 | Python, Pandas |
+| 그래프 변환 | NetworkX, Gephi |
+| 프론트엔드 | React, TypeScript, Vite |
+| 그래프 렌더링 | Sigma.js (GEXF 포맷) |
+| 패키지 관리 | Poetry (Python), npm (JS) |
+| 컨테이너화 | Docker, Docker Compose |
 
-   ```bash
-   # Windows 리눅스 설치
-   wsl --install Ubuntu-22.04
-   
-   #poetry 설치
-   curl -sSL https://install.python-poetry.org | python3 -
-    
-   # ~/.bashrc 파일 열기
-   vi ~/.bashrc 
+## Project Structure
 
-   # ~/.bashrc 맨 하단에 아래 줄 추가
-   PATH="$HOME/.local/bin:$PATH"
+```
+food-recommendation-by-graph/
+├── food_crawl/                # Scrapy 크롤러
+│   ├── food_crawl/
+│   │   ├── spiders/
+│   │   │   └── crawl.py       # 메인 크롤러 (Scrapy + Selenium)
+│   │   ├── items.py
+│   │   ├── pipelines.py       # 배치 저장 파이프라인 (50건 단위)
+│   │   └── settings.py
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── pyproject.toml
+├── graph/                     # 그래프 데이터 (노드 수별)
+│   ├── final_100.gexf
+│   ├── final_200.gexf
+│   ├── final_507.gexf
+│   └── final_1007.gexf
+├── src/                       # React 웹 애플리케이션
+│   ├── main.tsx               # 메인 그래프 시각화
+│   ├── NodeDetail.tsx         # 레시피 상세 페이지
+│   └── RecipeDetail.tsx
+└── data/
+    └── foods.json             # 수집된 레시피 원본 데이터
+```
 
-   # .bashrc 적용
-   source ~/.bashrc
+## Setup & Run
 
-   # 설치 확인
-   poetry --version
-   
-   #pyproject.toml 파일 생성
-   poetry init
-    
-   # 필요한 라이브러리 추가
-   poetry add selenium
-   poetry add mysql-connector-python
-   poetry add chromedriver-autoinstaller
-   poetry add requests
-   poetry add pandas
-   poetry add scrapy
+### 1. 크롤러 실행
 
-   # Docker 실행
-   sudo docker compose up   
-   ```
+```bash
+cd food_crawl
+docker-compose up --build
+```
 
+또는 로컬 실행:
 
-2. 만들어진 Graph를 Web application에 적용하여 유저들이 이용가능한 다양한 기능 구현
-   ## Overall UI
-  ![image](/Overall_UI.png)
-  
-  ## Recipe nodes matching onion and water 
-  ![image](/Matching_graph.png)
-  
-  ## UI of thai chicken crock pot recipe information 
-  ![image](/Recipe_information_UI.png)
-  
-  
-  
-  
+```bash
+cd food_crawl
+poetry install
+poetry run scrapy crawl food_crawl
+```
 
+### 2. 웹 앱 실행
 
+```bash
+npm install
+npm run dev
+```
 
+브라우저에서 `http://localhost:5173` 접속
 
+## Key Implementation
+
+### 재료명 정규화 알고리즘
+
+동일한 재료의 다양한 표현을 통합합니다.
+
+```
+"fresh garlic" → "garlic"
+"minced onions" → "onion"
+"large eggs" → "egg"
+```
+
+- 수식어 제거 (fresh, minced, large, chopped 등)
+- 복수형 → 단수형 통일
+- **결과**: 3,240개 → 2,670개 재료 (17.6% 중복 제거)
+
+### 그래프 구조
+
+- **노드**: 레시피, 재료, 요리 유형, 요리 스타일
+- **엣지**: 레시피-재료 연결 관계
+- **추천 알고리즘**: Random Walk 기반 유사도 + K-Core 핵심 네트워크 추출
+
+### 크롤링 전략
+
+- Scrapy: 메타데이터 (레시피명, 재료) 수집 — 정적 HTML 파싱
+- Selenium: 영양정보 모달 수집 — JavaScript 렌더링 필요
+- 배치 처리: 50건 단위로 JSON 저장 (메모리 효율화)
+
+## Results
+
+| 그래프 크기 | 노드 수 | 활용 |
+|------------|--------|------|
+| small | 100 | 테스트용 |
+| medium | 200 | 데모용 |
+| large | 507 | 기본 배포 |
+| full | 1,007 | 전체 데이터 |
+
+## Improvements (Known Limitations)
+
+- 증분 수집 미구현 — 현재 전체 재수집 방식
+- 스케줄링 자동화 없음 — Airflow 연동 미적용
+- CSV 저장 한계 — RDBMS 적재로 개선 여지
