@@ -7,7 +7,7 @@
 
 > 그래프 시각화 웹 앱에서 재료를 검색하면 유사 레시피 Top 5를 추천합니다.
 
-![Graph Visualization](./src/Overall_UI.png)
+![Graph Visualization](./verall_UI.png)
 
 ## Architecture
 
